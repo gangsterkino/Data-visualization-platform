@@ -1,14 +1,10 @@
+# Data Visualization Platform
 
-# Data-visualization-platform
 [![License](https://img.shields.io/github/license/用户名/仓库名)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/用户名/仓库名)](https://github.com/用户名/仓库名/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/用户名/仓库名)](https://github.com/用户名/仓库名/network)
+[![Version](https://img.shields.io/npm/v/frontend.svg)](https://www.npmjs.com/package/frontend)
 
-<p>
-  <a href="https://www.npmjs.com/package/frontend" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/frontend.svg">
-  </a>
-</p>
 ## Install
 
 ## 目录
