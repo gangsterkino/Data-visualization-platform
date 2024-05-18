@@ -1,0 +1,242 @@
+body {
+    background-color: #262626;
+    padding: 0;
+    margin: 0;
+}
+
+.contai {
+    background-color: gray;
+    border-radius: 20px;
+    height: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+    padding-top: 20px;
+    display: flex;
+    position: absolute;
+
+}
+
+.left {
+    background-color: #d0cece;
+    flex: 1;
+    width: 65%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    margin-right: 1%;
+    border-radius: 20px;
+}
+
+
+.chart1 {
+    display: flex;
+    height: 70%;
+    border-radius: 20px;
+    flex: 1;
+    color: white;
+}
+
+.chart2 {
+    background-color: #d0cece;
+    flex: 1;
+    height: 90%;
+    margin: auto;
+    border-radius: 20px;
+    max-width: 33%;
+    flex: 1;
+    display: block;
+}
+
+
+
+.chart1,
+.chart3 {
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 2%;
+
+}
+
+.chart3 {
+    height: 20%;
+    border-radius: 20px;
+}
+
+.selects {
+    background-color: #404040;
+    border-radius: 20px;
+    width: 20%;
+    height: 70%;
+    margin: auto;
+}
+
+.styles-chart.show {
+    display: block;
+}
+
+.chart-img {
+    height: 80%;
+    width: 80%;
+    background-color: #262626;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    margin-right: 4%;
+
+}
+
+.chart-img canvas {
+    min-width: 90%;
+    max-width: 100%;
+    min-height: 60%;
+    max-height: 80%;
+    margin: auto;
+}
+
+
+.item-1,
+.item-2 {
+    margin: 2%;
+}
+
+.item-1 {
+    background-color: #262626;
+    border-radius: 20px;
+    max-width: 95%;
+    height: 35%;
+    color: white;
+    text-align: center;
+}
+
+.item-2 {
+    border-radius: 20px;
+    display: block;
+    max-width: 95%;
+    max-height: 100%;
+
+}
+
+.item2-card {
+    background-color: #404040;
+    border-radius: 20px;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    overflow-y: auto;
+    margin-top: 2%;
+}
+
+.item2-table {
+    background-color: #404040;
+    border-radius: 20px;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    overflow-y: auto;
+    margin-top: 2px;
+}
+
+.item-1 canvas {
+    min-width: 90%;
+    min-height: 40%;
+    margin: auto;
+}
+
+button,
+select,
+input,
+.upload {
+    min-height: 8%;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: #262626;
+}
+
+.card {
+    flex: 1;
+    margin: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 80%;
+    background-color: #d0cece;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 2%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.novel-table {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.novel-table th,
+.novel-table td {
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.novel-table th {
+    color: white;
+    margin: auto;
+    position: relative;
+}
+
+.novel-table tr:hover {
+    background-color: #2e2e2e;
+
+}
+
+.page {
+    background-color: #262626;
+    margin: auto;
+    margin-top: 1%;
+    width: auto;
+    height: auto;
+    border: none;
+    color: white;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.disabled-button {
+    background-color: #ccc;
+    /* 灰色背景 */
+    color: #666;
+    /* 灰色文本颜色 */
+    cursor: not-allowed;
+    /* 鼠标样式为禁止 */
+}
+
+.disabled-button:hover {
+    background-color: #ccc;
+    /* 灰色背景 */
+    color: #666;
+    /* 灰色文本颜色 */
+    cursor: not-allowed;
+    /* 鼠标样式为禁止 */
+}
